@@ -23,4 +23,5 @@ Instructions:
 Content Credits:
 
 Header Photo: By Andrew Neel
+
 Language Icons: By Fisco Peculiar
