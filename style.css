@@ -6,31 +6,90 @@ body{
 .nav-bar{
     display: flex;
     border: 2px solid red;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    gap: 700px;
+    align-items: center;
 }
 .header-logo{
     width: 50px;
 }
-
 .nav-bar-links{
     display: flex;
+    gap: 15px;
 }
+
+
+
+
+
+
+
+
+
 
 .header{
     display: flex;
     border: 2px solid blue;
     border-top: 0px;
+    gap: 0px;
+    justify-content: space-evenly;
 }
+.cluster{
+    border: 2px solid rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.parag-cima{
+    width: 500px;
+}
+#botaocima{
+    /* flex-basis: 100%;
+    flex-grow: 0;
+    flex-shrink: 0; */
+    flex-shrink: 1;
+}
+#imagem-codigo{
+    width: 600px;
+}
+
+
+
+
+
+
+
+
 
 .middle-white{
     display: flex;
     border: 2px solid green;
     border-top: 0px;
+    flex-direction: column;
 }
-
+.info-head{
+    display: flex;
+    justify-content: center;
+}
 .box{
     display: flex;
+    justify-content: space-around;
 }
+.prog-logo{
+    width: 100px;
+}
+.box-subset{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
 
 .middle-gray{
     display: flex;
@@ -38,11 +97,27 @@ body{
     border-top: 0px;
 }
 
+
+
+
+
+
+
+
 .bottom-white{
     display: flex;
     border: 2px solid brown;
     border-top: 0px;
 }
+
+
+
+
+
+
+
+
+
 
 .footer{
     display: flex;
