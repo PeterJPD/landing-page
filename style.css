@@ -9,7 +9,7 @@
 .nav-bar{
     display: flex;
     justify-content: space-evenly;
-    gap: 700px;
+    gap: 850px;
     align-items: center;
 }
 .header-logo{
@@ -88,6 +88,10 @@
 
 #imagem-codigo{
     width: 600px;
+    margin-bottom: 35px;
+    margin-top: 15px;
+    border: 2px solid white;
+    border-radius: 12px;
 }
 
 .tech{
@@ -182,6 +186,7 @@ a{
     padding-right: 35px;
     flex: 1;
     justify-content: space-between;
+    border-radius: 12px;
 }
 .texto{
     /* border: 2px solid red; */

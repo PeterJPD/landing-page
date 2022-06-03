@@ -18,3 +18,9 @@ Instructions:
 5 - Do not worry about making your project look nice on a mobile device. We’ll learn that later.
 
 6 - When you finish, don’t forget to push it up to GitHub!
+
+------------------------------------------------------------------------------------------
+Content Credits:
+
+Header Photo: By Andrew Neel
+Language Icons: By Fisco Peculiar
