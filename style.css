@@ -122,10 +122,32 @@ body{
     display: flex;
     border: 2px solid brown;
     border-top: 0px;
+    padding: 100px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
 }
-
-
-
+.blue-section{
+    display: flex;
+    background-color: lightblue;
+    padding: 50px;
+    flex: 1;
+    justify-content: space-around;
+}
+.texto{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+}
+.botao-sign-up{
+    border: 2px solid green;
+    display: flex;
+    width: 100px;
+}
+.botao-em-si{
+    flex: 1;
+}
 
 
 
