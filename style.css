@@ -1,11 +1,6 @@
-body{
-    margin-left: 150px;
-    margin-right: 150px;
-}
-
 .nav-bar{
     display: flex;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     justify-content: space-evenly;
     gap: 700px;
     align-items: center;
@@ -18,24 +13,34 @@ body{
     gap: 15px;
 }
 
-
-
-
-
-
+.first-section{
+    background-color: lightblue;
+}
+.second-section{
+    background-color: lightcoral;
+}
+.third-section{
+    background-color: lightgray;
+}
+.fourth-section{
+    background-color: lightpink;
+}
+.fifth-section{
+    background-color: brown;
+}
 
 
 
 
 .header{
     display: flex;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     border-top: 0px;
     gap: 0px;
     justify-content: space-evenly;
 }
 .cluster{
-    border: 2px solid rebeccapurple;
+    /* border: 2px solid rebeccapurple; */
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -64,7 +69,7 @@ body{
 
 .middle-white{
     display: flex;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     border-top: 0px;
     flex-direction: column;
 }
@@ -96,7 +101,7 @@ body{
 
 .middle-gray{
     display: flex;
-    border: 2px solid magenta;
+    /* border: 2px solid magenta; */
     border-top: 0px;
     flex-wrap: wrap;
     flex-direction: column;
@@ -105,10 +110,10 @@ body{
 .quote{
     display: flex;
     width: 400px;
-    border: 2px solid aqua;
+    /* border: 2px solid aqua; */
 }
 .autor{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
 }
 
@@ -120,7 +125,7 @@ body{
 
 .bottom-white{
     display: flex;
-    border: 2px solid brown;
+    /* border: 2px solid brown; */
     border-top: 0px;
     padding: 100px;
     align-items: center;
@@ -130,18 +135,18 @@ body{
 }
 .blue-section{
     display: flex;
-    background-color: lightblue;
+     background-color: lightblue; 
     padding: 50px;
     flex: 1;
     justify-content: space-around;
 }
 .texto{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
 }
 .botao-sign-up{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     display: flex;
     width: 100px;
 }
@@ -157,6 +162,7 @@ body{
 
 .footer{
     display: flex;
-    border: 2px solid aqua;
+    /* border: 2px solid aqua; */
     border-top: 0px;
+    justify-content: center;
 }
