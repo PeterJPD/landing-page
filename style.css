@@ -54,7 +54,7 @@
     background-color: white;
     padding: 20px;
     gap: 25px;
-    border: 2px solid black;
+    border: 2px solid #1F2937;
     border-radius: 8px;
     align-items: flex-end;
 }
@@ -89,13 +89,9 @@
     flex-grow: 0;
     flex-shrink: 0; */
     flex-shrink: 1;
-    border: 0px;
-    border-radius: 8px;
-    border: 2px solid #3882F6;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 5px;
-    padding-top: 5px;
+    border: #3882F6;
+    padding: 7px 25px;
+    border-radius: 10px;
 }
 #botaocima:hover{
     opacity: 50%;
@@ -111,8 +107,9 @@
 }
 
 .tech{
+    color: #1F2937;
     font-weight: 900;
-    font-size: 24px;
+    font-size: 32px;
 }
 
 
@@ -162,6 +159,7 @@ h1{
     padding: 100px;
 }
 .quote{
+    color: #1F2937;
     display: flex;
     width: 400px;
     font-weight: 600;
@@ -170,6 +168,7 @@ h1{
 }
 .autor{
     /* border: 2px solid red; */
+    color: #1F2937;
     display: flex;
     font-weight: 800;
 }
@@ -251,6 +250,10 @@ button:hover{
     cursor: pointer;
 }
 
+
+.git:hover, .about:hover, .contact:hover{
+    opacity: 50%;
+}
 
 .copy{
     color: white;
